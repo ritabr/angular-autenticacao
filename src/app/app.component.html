@@ -1,0 +1,10 @@
+<button 
+      type="submit" 
+      class="btn btn-danger" 
+      (click)="sair()" 
+      style="float: right;"
+      *ngIf="autenticado()">
+      <i class="bi bi-door-open"></i>
+      Sair
+    </button>
+<router-outlet></router-outlet>
